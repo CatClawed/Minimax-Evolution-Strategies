@@ -1,0 +1,5 @@
+# What even is this? #
+
+A game, called [Wari](https://en.wikipedia.org/wiki/Oware), can be played using the [Minimax](https://en.wikipedia.org/wiki/Minimax) algorithm. You could run Minimax using the raw score, but it's surprisingly easy to use dumb, random moves to beat the AI in those cases. Therefore, I came up with the idea of using a slightly more advanced heuristic function to evaluate the game's quality, which made the AI significantly harder to beat. Then I used [evolution strategies](https://en.wikipedia.org/wiki/Evolution_strategy) to evolve the function into its best form, rather than using preset values.
+
+I'm personally quite fond of the project, though it's a bit hard to understand the code without cracking open a Genetic Algorithms textbook and seeing what the variables are for.
